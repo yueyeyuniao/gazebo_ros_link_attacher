@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # Link them
     rospy.loginfo("Attaching wall and cable")
     req = AttachRequest()
-    req.model_name_1 = "wall"
+    req.model_name_1 = "wall_sockets"
     req.link_name_1 = "wall"
     req.model_name_2 = "cable"
     req.link_name_2 = "plug"
